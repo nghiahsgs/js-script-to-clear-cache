@@ -2,7 +2,7 @@
 js script to clear cache
 
 
-Auto clear cache js
+### Auto clear cache js
 ```js
   var scripts =  document.getElementsByTagName('script');
 var torefreshs = ['script.js', 'core.min.js'] ; // list of js to be refresh
@@ -19,7 +19,7 @@ for(var i=0;i<scripts.length;i++){
 ```
 
 
-Auto clear cache css
+### Auto clear cache css
 ```js
 var scripts =  document.getElementsByTagName('link');
 var torefreshs = ['bootstrap.css', 'style.css','novi.css','style-meeypage.css'] ; // list of js to be refresh
